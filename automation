@@ -2,9 +2,8 @@ import os
 import smtplib
 
 
-SMTP_SENDER="your@gmail.com"
-SMTP_APP_PASSWORD="your-16-char-gmail-app-password"
-SMTP_RECEIVER="recipient@example.com"
+SMTP_SENDER="keerthana@gmail.com"
+SMTP_APP_PASSWORD="Keerthana@1354"
 
 
 if not sender or not password:
