@@ -2,9 +2,8 @@ import webbrowser
 import time
 
 websites = [
-    "https://www.google.com",
-    "https://github.com",
-    "https://www.linkedin.com"
+    "https://mail.google.com",
+    "https://github.com/"
 ]
 
 for site in websites:

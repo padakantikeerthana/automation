@@ -1,9 +1,11 @@
 import os
 import smtplib
 
-sender = os.getenv("SMTP_SENDER")
-password = os.getenv("SMTP_APP_PASSWORD")
-receiver = os.getenv("SMTP_RECEIVER") or sender
+
+SMTP_SENDER="your@gmail.com"
+SMTP_APP_PASSWORD="your-16-char-gmail-app-password"
+SMTP_RECEIVER="recipient@example.com"
+
 
 if not sender or not password:
     print("Gmail credentials are not configured.")
